@@ -266,7 +266,7 @@ extern "C" void app_main(void)
     while (1)
     {
         /* code */
-        print_system_tasks();
+        // print_system_tasks();
         vTaskDelay(pdMS_TO_TICKS(10000));
     }
 }

@@ -36,7 +36,7 @@ dependencies:
   esp_lvgl_port:
     dependencies: []
     source:
-      path: D:\esp_idf\541\Espressif\workspace\esp_brookesia_phone\components\esp_lvgl_port
+      path: D:\esp_idf\541\Espressif\workspace\esp_brookesia_phone_xiaozhi\components\esp_lvgl_port
       type: local
     version: 2.5.0
   espressif/cmake_utilities:
@@ -212,7 +212,7 @@ dependencies:
       type: service
     version: 0.0.5
   espressif/esp_serial_slave_link:
-    component_hash: 8c534b7d4986ca0e4c41db71f559492b795ab862f1d15359d7993034696b7bcc
+    component_hash: d8c13c033a7604e9333b5d8ea45e0d6fec908fd552df7db20d33dd8d6916528d
     dependencies:
     - name: idf
       require: private
@@ -220,7 +220,7 @@ dependencies:
     source:
       registry_url: https://components.espressif.com
       type: service
-    version: 1.1.0
+    version: 1.1.0~1
   espressif/esp_video:
     component_hash: 37f7a3b16aa842e612180d5a4698db1c3bc36142a0b78664eb4ffe67c8cd0510
     dependencies:
